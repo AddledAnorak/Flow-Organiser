@@ -1,7 +1,7 @@
 import { useState, useRef } from "react";
 import { useParams } from "react-router-dom";
 
-export default function FlowInSidebar({ access_token, name, key, id, renameCallback }: any) {
+export default function FlowInSidebar({ access_token, name, id, renameCallback }: any) {
   const [currentName, setCurrentName] = useState(name);
   const { id: activeFlowId } = useParams() as any;
   const flowInSidebarRef = useRef<HTMLDivElement | null>(null); 
