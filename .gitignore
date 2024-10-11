@@ -1,0 +1,55 @@
+*.ps1
+*.pem
+
+# Logs
+flow-organiser/logs
+*.log
+flow-organiser/npm-debug.log*
+flow-organiser/yarn-debug.log*
+flow-organiser/yarn-error.log*
+flow-organiser/pnpm-debug.log*
+
+# Dependency directories
+flow-organiser/node_modules/
+flow-organiser/.pnp/
+flow-organiser/.pnp.js
+
+# Vite cache
+flow-organiser/.vite/
+
+# Local environment files
+flow-organiser/.env
+flow-organiser/.env.local
+flow-organiser/.env.*.local
+
+# Editor directories and files
+.vscode/
+.idea/
+.DS_Store
+
+# Optional npm cache directory
+flow-organiser/.npm
+
+# Optional eslint cache
+.eslintcache
+flow-organiser/.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Optional prettier cache
+.prettiercache
+
+# Output directory
+flow-organiser/dist/
+flow-organiser/out/
+
+# Production files
+flow-organiser/build/
+
+# Typescript
+**.tsbuildinfo
+
+
+backend/data.json
+backend/.env
